@@ -1,0 +1,9 @@
+torch
+transformers
+Flask
+datasets
+sentencepiece
+torchvision 
+torchaudio
+jinja2
+accelerate>=0.26.0

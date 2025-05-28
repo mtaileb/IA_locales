@@ -1,0 +1,4 @@
+{"prompt": "Créer une fonction Python qui additionne deux nombres", "code": "def add(a, b):\n    return a + b"}
+{"prompt": "Afficher Hello World en JavaScript", "code": "console.log('Hello World');"}
+{"prompt": "Déclarer une variable en Java", "code": "int x = 10;"}
+

@@ -10,11 +10,15 @@ import os
 import pandas as pd
 from datasets import Dataset, DatasetDict
 import argparse
+import wandb
 
 # Configuration
 MODEL_NAME = "EleutherAI/gpt-neo-1.3B"
 DATA_DIR = "data"
 OUTPUT_DIR = "./model"
+
+# Désactive wandb par défaut
+os.environ["WANDB_DISABLED"] = "true"
 
 def load_parquet_datasets(data_dir=DATA_DIR):
     """Charge les datasets train et test depuis les fichiers parquet"""
@@ -77,7 +81,8 @@ def train_model():
         logging_steps=500,               # Log toutes les 500 étapes
         load_best_model_at_end=True,     # Charge le meilleur modèle à la fin
         fp16=torch.cuda.is_available(),  # Utilise FP16 si GPU disponible
-        eval_strategy="steps",     # Stratégie d'évaluation
+        evaluation_strategy="steps",     # Stratégie d'évaluation
+        report_to="none"                # Désactive explicitement le reporting
     )
 
     # Data collator

@@ -18,7 +18,7 @@ tokenizer.pad_token = tokenizer.eos_token  # <-- Fix here
 model = AutoModelForCausalLM.from_pretrained(model_name)
  
 # Load your custom dataset
-dataset = load_dataset('parquet', data_files={'train': '/content/data/data.parquet'})
+dataset = load_dataset('parquet', data_files={'train': '/content/data/train.parquet'})
  
 # Tokenize the dataset
 '''

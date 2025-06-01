@@ -77,7 +77,7 @@ def train_model():
         logging_steps=500,               # Log toutes les 500 étapes
         load_best_model_at_end=True,     # Charge le meilleur modèle à la fin
         fp16=torch.cuda.is_available(),  # Utilise FP16 si GPU disponible
-        evaluation_strategy="steps",     # Stratégie d'évaluation
+        eval_strategy="steps",     # Stratégie d'évaluation
     )
 
     # Data collator

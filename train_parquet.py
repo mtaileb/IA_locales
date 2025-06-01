@@ -18,29 +18,11 @@ tokenizer.pad_token = tokenizer.eos_token  # <-- Fix here
 model = AutoModelForCausalLM.from_pretrained(model_name)
  
 # Load your custom dataset
-import os
-os.environ["HF_DATASETS_CACHE"] = "/content/hf_cache"
-from datasets import load_dataset
-dataset = load_dataset(
-    'parquet',
-    data_files={'train': '/content/data/train.parquet'},
-    split='train'
-)
+dataset = load_dataset('json', data_files={'train': '/content/data/train.jsonl'})
 
 
  
 # Tokenize the dataset
-'''
-def tokenize_function(example):
-    tokens = tokenizer(
-        example['question'] + "\n" + example['answer'],
-        truncation=True,
-        max_length=512,
-    )
-    tokens["labels"] = tokens["input_ids"].copy()
-    return tokens
-'''
-
 def tokenize_function(example):
     # Combine question + answer
     text = example['question'] + "\n" + example['answer']

@@ -1,4 +1,106 @@
 {"prompt": "Créer une fonction Python qui additionne deux nombres", "code": "def add(a, b):\n    return a + b"}
 {"prompt": "Afficher Hello World en JavaScript", "code": "console.log('Hello World');"}
 {"prompt": "Déclarer une variable en Java", "code": "int x = 10;"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Trier une liste (Python)", "code": "ma_liste = [5, 2, 9]\nma_liste.sort()"}
+{"prompt": "Trier une liste (Python)", "code": "ma_liste = [5, 2, 9]\nma_liste.sort()"}
+{"prompt": "Trier une liste (Python)", "code": "ma_liste = [5, 2, 9]\nma_liste.sort()"}
+{"prompt": "Créer une fonction Python qui additionne deux nombres (Python)", "code": "def addition(a, b):\n    return a + b"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Créer une fonction Python qui additionne deux nombres (Python)", "code": "def addition(a, b):\n    return a + b"}
+{"prompt": "Créer une fonction Python qui additionne deux nombres (Python)", "code": "def addition(a, b):\n    return a + b"}
+{"prompt": "Trier une liste (Python)", "code": "ma_liste = [5, 2, 9]\nma_liste.sort()"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Trier une liste (Python)", "code": "ma_liste = [5, 2, 9]\nma_liste.sort()"}
+{"prompt": "Créer une fonction Python qui additionne deux nombres (Python)", "code": "def addition(a, b):\n    return a + b"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Créer une fonction Python qui additionne deux nombres (Python)", "code": "def addition(a, b):\n    return a + b"}
+{"prompt": "Vérifier si un nombre est pair (Python)", "code": "def est_pair(n):\n    return n % 2 == 0"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Vérifier si un nombre est pair (Python)", "code": "def est_pair(n):\n    return n % 2 == 0"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Créer une fonction Python qui additionne deux nombres (Python)", "code": "def addition(a, b):\n    return a + b"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Vérifier si un nombre est pair (Python)", "code": "def est_pair(n):\n    return n % 2 == 0"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Trier une liste (Python)", "code": "ma_liste = [5, 2, 9]\nma_liste.sort()"}
+{"prompt": "Afficher 'Bonjour le monde' (Python)", "code": "print('Bonjour le monde')"}
+{"prompt": "Créer une fonction Python qui additionne deux nombres (Python)", "code": "def addition(a, b):\n    return a + b"}
+{"prompt": "Trier une liste (Python)", "code": "ma_liste = [5, 2, 9]\nma_liste.sort()"}
+{"prompt": "Vérifier si un nombre est pair (Python)", "code": "def est_pair(n):\n    return n % 2 == 0"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Lire un fichier texte (Python)", "code": "with open('fichier.txt', 'r') as f:\n    contenu = f.read()"}
+{"prompt": "Modifier le contenu d'un élément HTML (JavaScript)", "code": "document.getElementById('demo').innerHTML = 'Nouveau contenu';"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Créer une fonction JavaScript qui additionne deux nombres (JavaScript)", "code": "function addition(a, b) {\n  return a + b;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Vérifier si un nombre est pair (JavaScript)", "code": "function estPair(n) {\n  return n % 2 === 0;\n}"}
+{"prompt": "Créer une fonction JavaScript qui additionne deux nombres (JavaScript)", "code": "function addition(a, b) {\n  return a + b;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Vérifier si un nombre est pair (JavaScript)", "code": "function estPair(n) {\n  return n % 2 === 0;\n}"}
+{"prompt": "Modifier le contenu d'un élément HTML (JavaScript)", "code": "document.getElementById('demo').innerHTML = 'Nouveau contenu';"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Créer une fonction JavaScript qui additionne deux nombres (JavaScript)", "code": "function addition(a, b) {\n  return a + b;\n}"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Modifier le contenu d'un élément HTML (JavaScript)", "code": "document.getElementById('demo').innerHTML = 'Nouveau contenu';"}
+{"prompt": "Créer une fonction JavaScript qui additionne deux nombres (JavaScript)", "code": "function addition(a, b) {\n  return a + b;\n}"}
+{"prompt": "Vérifier si un nombre est pair (JavaScript)", "code": "function estPair(n) {\n  return n % 2 === 0;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Vérifier si un nombre est pair (JavaScript)", "code": "function estPair(n) {\n  return n % 2 === 0;\n}"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Créer une fonction JavaScript qui additionne deux nombres (JavaScript)", "code": "function addition(a, b) {\n  return a + b;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Modifier le contenu d'un élément HTML (JavaScript)", "code": "document.getElementById('demo').innerHTML = 'Nouveau contenu';"}
+{"prompt": "Modifier le contenu d'un élément HTML (JavaScript)", "code": "document.getElementById('demo').innerHTML = 'Nouveau contenu';"}
+{"prompt": "Afficher 'Bonjour le monde' en JavaScript (JavaScript)", "code": "console.log('Bonjour le monde');"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Vérifier si un nombre est pair (JavaScript)", "code": "function estPair(n) {\n  return n % 2 === 0;\n}"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Créer une fonction JavaScript qui additionne deux nombres (JavaScript)", "code": "function addition(a, b) {\n  return a + b;\n}"}
+{"prompt": "Vérifier si un nombre est pair (JavaScript)", "code": "function estPair(n) {\n  return n % 2 === 0;\n}"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Trier un tableau (JavaScript)", "code": "let tableau = [5, 2, 9];\ntableau.sort();"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Lire un fichier texte (Java)", "code": "BufferedReader reader = new BufferedReader(new FileReader('fichier.txt'));\nString ligne = reader.readLine();"}
+{"prompt": "Créer une méthode Java qui additionne deux nombres (Java)", "code": "public int addition(int a, int b) {\n  return a + b;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Lire un fichier texte (Java)", "code": "BufferedReader reader = new BufferedReader(new FileReader('fichier.txt'));\nString ligne = reader.readLine();"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Trier un tableau d'entiers (Java)", "code": "Arrays.sort(monTableau);"}
+{"prompt": "Vérifier si un nombre est pair (Java)", "code": "public boolean estPair(int n) {\n  return n % 2 == 0;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Créer une méthode Java qui additionne deux nombres (Java)", "code": "public int addition(int a, int b) {\n  return a + b;\n}"}
+{"prompt": "Lire un fichier texte (Java)", "code": "BufferedReader reader = new BufferedReader(new FileReader('fichier.txt'));\nString ligne = reader.readLine();"}
+{"prompt": "Lire un fichier texte (Java)", "code": "BufferedReader reader = new BufferedReader(new FileReader('fichier.txt'));\nString ligne = reader.readLine();"}
+{"prompt": "Vérifier si un nombre est pair (Java)", "code": "public boolean estPair(int n) {\n  return n % 2 == 0;\n}"}
+{"prompt": "Créer une méthode Java qui additionne deux nombres (Java)", "code": "public int addition(int a, int b) {\n  return a + b;\n}"}
+{"prompt": "Trier un tableau d'entiers (Java)", "code": "Arrays.sort(monTableau);"}
+{"prompt": "Trier un tableau d'entiers (Java)", "code": "Arrays.sort(monTableau);"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Vérifier si un nombre est pair (Java)", "code": "public boolean estPair(int n) {\n  return n % 2 == 0;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Vérifier si un nombre est pair (Java)", "code": "public boolean estPair(int n) {\n  return n % 2 == 0;\n}"}
+{"prompt": "Lire un fichier texte (Java)", "code": "BufferedReader reader = new BufferedReader(new FileReader('fichier.txt'));\nString ligne = reader.readLine();"}
+{"prompt": "Vérifier si un nombre est pair (Java)", "code": "public boolean estPair(int n) {\n  return n % 2 == 0;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Créer une méthode Java qui additionne deux nombres (Java)", "code": "public int addition(int a, int b) {\n  return a + b;\n}"}
+{"prompt": "Vérifier si un nombre est pair (Java)", "code": "public boolean estPair(int n) {\n  return n % 2 == 0;\n}"}
+{"prompt": "Créer une méthode Java qui additionne deux nombres (Java)", "code": "public int addition(int a, int b) {\n  return a + b;\n}"}
+{"prompt": "Afficher 'Bonjour le monde' en Java (Java)", "code": "public class Main {\n  public static void main(String[] args) {\n    System.out.println('Bonjour le monde');\n  }\n}"}
+{"prompt": "Lire un fichier texte (Java)", "code": "BufferedReader reader = new BufferedReader(new FileReader('fichier.txt'));\nString ligne = reader.readLine();"}
+{"prompt": "Trier un tableau d'entiers (Java)", "code": "Arrays.sort(monTableau);"}
+{"prompt": "Trier un tableau d'entiers (Java)", "code": "Arrays.sort(monTableau);"}
+{"prompt": "Vérifier si un nombre est pair (Java)", "code": "public boolean estPair(int n) {\n  return n % 2 == 0;\n}"}
+{"prompt": "Créer une méthode Java qui additionne deux nombres (Java)", "code": "public int addition(int a, int b) {\n  return a + b;\n}"}
 

@@ -24,7 +24,7 @@ dataset = load_dataset('parquet', data_files={'train': '/content/data/train.parq
 '''
 def tokenize_function(example):
     tokens = tokenizer(
-        example['prompt'] + "\n" + example['code'],
+        example['question'] + "\n" + example['answer'],
         truncation=True,
         max_length=512,
     )
@@ -33,8 +33,8 @@ def tokenize_function(example):
 '''
 
 def tokenize_function(example):
-    # Combine prompt + code
-    text = example['prompt'] + "\n" + example['code']
+    # Combine question + answer
+    text = example['question'] + "\n" + example['answer']
     
     # Tokenize with padding AND truncation
     tokens = tokenizer(
@@ -50,7 +50,7 @@ def tokenize_function(example):
 tokenized_datasets = dataset.map(
     tokenize_function,
     batched=False,
-    remove_columns=['prompt', 'code']
+    remove_columns=['question', 'answer']
 )
 
 
@@ -104,7 +104,7 @@ def generate_code(prompt, max_length=200):
     return tokenizer.decode(output[0], skip_special_tokens=True)
  
 # Example
-prompt = "Créer une fonction Python qui additionne trois nombres."
+prompt = "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?"
 print(generate_code(prompt))
 
 # Evaluate the Output

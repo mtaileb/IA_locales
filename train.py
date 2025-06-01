@@ -104,7 +104,7 @@ def generate_code(prompt, max_length=200):
     return tokenizer.decode(output[0], skip_special_tokens=True)
  
 # Example
-prompt = "Create a React component for a navbar with a logo and menu items."
+prompt = "Créer une fonction Python qui additionne trois nombres."
 print(generate_code(prompt))
 
 # Evaluate the Output

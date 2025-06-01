@@ -65,19 +65,19 @@ def train_model():
         remove_columns=['question', 'answer']
     )
 
-    # Configuration de l'entraînement
+    # Configuration de l'entraînement (version compatible)
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
         num_train_epochs=3,
         per_device_train_batch_size=2,
         per_device_eval_batch_size=2,
-        evaluation_strategy="steps",
-        eval_steps=1000,
-        save_steps=5000,
-        save_total_limit=2,
-        logging_steps=500,
-        load_best_model_at_end=True,
-        fp16=torch.cuda.is_available(),
+        eval_steps=1000,                # Évaluation toutes les 1000 étapes
+        save_steps=5000,                # Sauvegarde toutes les 5000 étapes
+        save_total_limit=2,              # Max 2 checkpoints
+        logging_steps=500,               # Log toutes les 500 étapes
+        load_best_model_at_end=True,     # Charge le meilleur modèle à la fin
+        fp16=torch.cuda.is_available(),  # Utilise FP16 si GPU disponible
+        evaluation_strategy="steps",     # Stratégie d'évaluation
     )
 
     # Data collator

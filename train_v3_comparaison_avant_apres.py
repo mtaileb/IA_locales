@@ -141,6 +141,22 @@ if __name__ == '__main__':
     # Train
     train_model()
 
-    # Comparaison de génération
-    prompt = "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?"
-    compare_models(prompt)
+    # Chargement des données de validation
+    val_datasets = load_parquet_datasets()["test"]
+    
+    # Comparaisons des réponses sur les 3 premiers exemples du jeu de données de validation
+    for i in range(3):
+        prompt = val_datasets[i]['question']
+        correct_answer = val_datasets[i]['answer']
+        
+        print(f"\n\n=== Exemple {i+1} ===")
+        print(f"\n1) PROMPT: {prompt}")
+        print(f"\n2) BONNE REPONSE: {correct_answer}")
+        
+        print("\n3) REPONSE DU MODELE DE BASE:")
+        base_output = generate_text(prompt, base_model, base_tokenizer)
+        print(base_output.split(prompt)[-1].strip())
+        
+        print("\n4) REPONSE DU MODELE AVEC FINETUNING:")
+        finetuned_output = generate_text(prompt, finetuned_model, tokenizer)
+        print(finetuned_output.split(prompt)[-1].strip())

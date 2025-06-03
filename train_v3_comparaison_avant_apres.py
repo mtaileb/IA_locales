@@ -144,7 +144,7 @@ if __name__ == '__main__':
     # Chargement des données de validation
     val_datasets = load_parquet_datasets()["test"]
     
-    # Comparaisons des réponses sur les 3 premiers exemples du jeu de données de validation
+    # Comparaison des réponses sur les 3 premiers exemples du jeu de données de validation
     for i in range(3):
         prompt = val_datasets[i]['question']
         correct_answer = val_datasets[i]['answer']

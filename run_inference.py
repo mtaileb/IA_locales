@@ -43,3 +43,6 @@ if __name__ == "__main__":
 
     print("\nGenerated Output:\n")
     print(output)
+
+# Exemple: python run_inference.py --prompt "How many centiliters is there is half a liter?"
+

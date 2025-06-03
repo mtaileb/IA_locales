@@ -9,6 +9,8 @@ from transformers import (
 import os
 import pandas as pd
 from datasets import Dataset, DatasetDict
+import argparse
+import wandb
 
 # Configuration
 BASE_MODEL_NAME = "EleutherAI/gpt-neo-1.3B"
@@ -137,7 +139,7 @@ if __name__ == '__main__':
         finetuned_model.cuda()
 
     # Train (si besoin)
-    # train_model()
+    train_model()
 
     # Comparaison de génération
     prompt = "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?"

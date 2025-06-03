@@ -107,7 +107,7 @@ def train_model():
     trainer.train()
 
     # Sauvegarde dans le conteneur Google Colab
-    print("Saving model...")
+    print("Saving model in ~/content/.model")
     model.save_pretrained(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)  
 

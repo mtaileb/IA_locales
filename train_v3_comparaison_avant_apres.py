@@ -138,7 +138,7 @@ if __name__ == '__main__':
     if torch.cuda.is_available():
         finetuned_model.cuda()
 
-    # Train (si besoin)
+    # Train
     train_model()
 
     # Comparaison de génération

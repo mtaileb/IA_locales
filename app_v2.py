@@ -51,7 +51,7 @@ if __name__ == '__main__':
     time.sleep(3)
 
     # Test the API
-    test_prompt = "Create a simple HTML page with a header"
+    test_prompt = "How many centiliters is there is half a liter?"
     try:
         response = requests.post(
             "http://127.0.0.1:5000/generate",
